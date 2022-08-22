@@ -46,6 +46,9 @@ margin-left: 5px;
     color: black;
 }
 
+.artAdminbgC{
+background-color: rgb(247, 241, 241);
+}
 
 @media screen and (min-width: 300px) and (max-width: 576px){
 
