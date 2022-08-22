@@ -32,6 +32,13 @@ height: 432px;
     height: 432px;
 }
 
+.btnBorder{
+border-radius: 100px;
+padding: 2px;
+color: white;
+margin-left: 5px;
+}
+
 
 @media screen and (min-width: 300px) and (max-width: 576px){
 
