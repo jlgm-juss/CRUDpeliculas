@@ -1,4 +1,15 @@
+.txtShort{
+    cursor: pointer;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
 
+.txtShort:hover{
+    display: block;
+}
 
 .txtColor{
     color: white;
