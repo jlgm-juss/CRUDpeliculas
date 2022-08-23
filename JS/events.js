@@ -11,13 +11,13 @@ let enviar = document.getElementById('enviar');
 
 //aqui voy agregando los eventos
 
-formulario.addEventListener('formulario');
+//formulario.addEventListener('formulario');
 codigo.addEventListener('blur', ()=>{validarCodigo(codigo)});
 titulo.addEventListener('blur',()=>{validarTitulo(titulo)});
 descripcion.addEventListener('blur',()=>{validarDescripcion(descripcion)});
 genero.addEventListener('blur',()=>{validarGenero(genero)});
 imagen.addEventListener('blur',()=>{validarImagen(imagen)});
-enviar.addEventListener('submit', crearPelicula);
+//enviar.addEventListener('submit', crearPelicula);
 
 formulario.addEventListener('submit', e=> {
     e.preventDefault();
