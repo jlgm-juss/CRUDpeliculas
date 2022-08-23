@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="José Luis Gómez Mariligano" />
+    <meta name="keywords" content="CRUD, HTML, CSS, JS" />
+    <meta name="description" content="Detalle serie Thor" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Detalle serie</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark py-4">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-3 txtColor mTitle" href="../index.html"
+            >Series</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link txtColor fs-4 mInicio"
+                  aria-current="page"
+                  href="detalle.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link txtColor fs-4" href="administrador.html"
+                  >Administrador</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <section>
+        <h1 class="text-center mt-5">Detalle series</h1>
+        <hr />
+        <article class="card mb-3" style="max-width: 1300px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../img/Thor.webp"
+                class="img-fluid rounded-start"
+                alt="Detalle-Serie-Thor"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title fs-3">Thor: Love and Thunder</h5>
+                <p class="card-text fs-4">
+                  El Dios del trueno (Cris Hemsworth) emprende un viaje que no
+                  se parece en nada a lo que se ha enfrentado hasta ahora: una
+                  búsqueda de la paza interior. Pero el retiro de Thor se ve
+                  interrumpido por un asesino galáctico conocido como Gorr el
+                  Carnicero de Dioses (Christian Bale), que busca la extinción
+                  de los dioses. Para hacer frente a la amenaza, Thor solicita
+                  la ayuda del Rey Valkiria (Tessa Thompson), de Korg (Taika
+                  Waititi) y de su ex novia Jane Foster (Natalie Portman).
+                </p>
+                <p class="fs-4">Género:<button class="btn btn-info btnBorder">Ciencia ficción</button></p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="bg-dark container-fluid">
+      <p class="txtColor text-center py-5 mt-5">
+        &copy;Todos los derechos reservados
+      </p>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../JS/app.js"></script>
+  </body>
+</html>
