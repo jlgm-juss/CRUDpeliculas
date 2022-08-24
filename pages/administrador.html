@@ -62,17 +62,14 @@
         <p class="fs-3">
           Opciones:<button
             class="btn btn-outline-primary ms-3"
-            type="button"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-            data-bs-whatever="@mdo"
+            id="btnCrearPelicula"
           >
             <i class="fa-solid fa-store"></i>
           </button>
         </p>
         <div
           class="modal fade"
-          id="exampleModal"
+          id="modalPelicula"
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
@@ -91,19 +88,19 @@
                 ></button>
               </div>
               <div class="modal-body">
-                <form id="formulario">
+                <form id="formPelicula">
                   <div class="mb-3">
                     <label for="codigo" class="col-form-label"
                       >Codigo</label
                     >
                     <input
-                      type="number"
+                      type="text"
                       class="form-control"
                       id="codigo"
                       placeholder="123"
                       minlength="3"
                       maxlength="3"
-                      required
+                      disabled
                     />
                   </div>
                   <div class="mb-3">
@@ -144,7 +141,6 @@
                       placeholder="Ej: http://127.0.0.1:5501/pages/administrador.html"
                       minlength="8"
                       maxlength="100"
-                      required
                     />
                   </div>
                   <div class="mb-3">
@@ -163,7 +159,7 @@
                 </form>
               </div>
               <div class="modal-footer d-flex justify-content-start">
-                <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
               </div>
             </div>
           </div>
@@ -387,6 +383,7 @@
       src="https://kit.fontawesome.com/8e817335b1.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/uuidv4.min.js"></script>
     <script src="../JS/events.js" type="module"></script>
   </body>
 </html>
